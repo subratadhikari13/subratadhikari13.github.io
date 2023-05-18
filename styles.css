@@ -1357,6 +1357,10 @@ hr {
 
 
 @media only screen and (max-width: 768px) {
+  
+  .toggle-switch{
+    display:none;
+  }
   .container {
     padding: 10px;
   }
