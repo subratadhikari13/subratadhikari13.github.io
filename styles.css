@@ -447,6 +447,7 @@ button .icon-3 {
   -ms-flex-positive: 2;
   flex-grow: 2;
   width: 200px;
+  padding-bottom: 5px;
 }
 
 .toggle-switch label {
@@ -596,13 +597,17 @@ li {
 }
 
 .logo {
+  justify-content: center;
+  display: flex;
   font-size: 28px;
   flex-shrink: 3;
   width: 100%;
+  align-items: center;
   font-weight: bold;
   color: #1f1d18;
   vertical-align: middle;
   padding-left: 15px;
+  padding-bottom: 5px;
 }
 
 .hamburger {
@@ -1357,8 +1362,6 @@ hr {
 
 
 @media only screen and (max-width: 768px) {
-  
- 
   .container {
     padding: 10px;
   }
@@ -1411,7 +1414,7 @@ padding-top: 0%;
 
 @media only screen and (max-width: 1000px) {
 
-  #AboutMe {
+  #buddyboy {
     scroll-margin-top: 100px;
   
   }
@@ -1740,13 +1743,14 @@ padding-top: 0%;
     display: none;
   }
   .toggle-switch {
-
+ display: none;
     -ms-flex-negative: 2;
-    display:none;
+    
     flex-shrink: 2;
   }
   .logo{
     padding: 0;
+    padding-bottom: 5px;
   }
 
   .myPicture img {
