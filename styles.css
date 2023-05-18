@@ -1778,7 +1778,7 @@ padding-top: 0%;
 
   .rowedupdawg {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 
   }
 
